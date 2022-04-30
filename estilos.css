@@ -1,0 +1,46 @@
+
+
+.titulo{
+    font-weight: bold;
+}
+h1{
+    color:green;
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    font-style: italic;
+}
+.logo{
+    position: absolute;
+    top: 170px;
+    right: 580px;
+    border: 2px solid lightblue;
+    width: 15%;
+    
+}
+body{
+    background-color:azure;
+}
+.yuli{
+    width: 8%;
+    margin-left: 240px;
+    margin-top: 70px;
+    border-color: red;
+    border-width: 2px;
+}
+.mod li{
+    display: inline-block;
+    margin: 0 30px;
+    size: 40px;
+    font-size: 30px;
+    padding-left: 150px;
+    padding-top: ;
+}
+
+.descripcion p{
+ color: brown;
+ display: inline-block;
+ position: absolute;
+ left: 150px;
+}
