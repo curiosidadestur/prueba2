@@ -1,0 +1,52 @@
+header{
+    background-color:beige
+}
+
+.intro{
+    text-align: center;
+    background-color:azure;
+}
+.titulo{
+    text-align: center;
+    color: cornflowerblue;
+    font-style:unset;
+    
+}
+.mod{
+    width: 1280px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.mod li{
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 100px;
+    box-sizing: border-box;
+    color: brown;
+    vertical-align: top;
+    
+}
+.descripcion{
+    font-style: italic;
+}
+.proyectodescripcion{
+    font-style: italic;
+}
+.yuli{
+    width: 150px;
+    position:relative;
+    bottom: 80px;
+    left: 150px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    
+}
+.logo{
+    width: 180px;
+    position:absolute;
+    left: 400px;
+    position: relative;
+    bottom: 80px;
+
+}
