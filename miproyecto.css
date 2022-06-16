@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{ 
+    width: 100%;
+    padding: 30px;
+   background-color: #25CED1;
+}
+nav{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    
+    padding: 10px;
+   border-radius: 20px;
+}
+.inicio{
+    background-color: rgb(185, 185, 185);
+    padding: 20px;
+}
+#logo{
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    border-radius: 50%;
+    width: 5%;
+
+}
+nav a{
+   
+    font-size: 1em;
+    padding: 0 auto;
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+nav>a:hover{
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration:solid;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line:underline;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    width: 100%;
+    padding: 50px 0;
+    
+}
+main h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #25CED1;
+}
+.titulo{
+    text-align: center;
+    color: #1D3B39;
+    text-shadow: 2px 2px 5px rgb(63, 114, 97);
+}
+
+.intro{
+    text-align: center;
+    margin-top: 10px; 
+    color: black ;  
+}
+.videosinicio{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.videosinicio div p{
+    background-color:#FCEADE;
+    margin: 20px 0;
+    text-align: center;
+}
+.infografias{
+    display: flex;
+    
+    justify-content: center;
+}
+.infografias div>img{
+    width: 350px;
+    margin: 0 60px;
+
+}
+footer { 
+    width: 100%;
+    background-color: #FF8A5B;
+     
+    
+}
+footer>p{
+    text-align: center;
+    padding: 20px ;
+}
